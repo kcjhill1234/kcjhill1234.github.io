@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-</head>
-<body>
-<span class="border border-success"></span>
+    <link rel="stylesheet" href="/Assets/css/style.css">
 
-<div class="container">
-    <div class="row">
-    <div class="col-sm bg-dark text-white">
-        <h1><span>Kenyatta Hill</span></h1>
-    </div>
-        <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link active" href="./index.html">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-        </li>
-        </ul>
-    </div>
-</div class="container">
-    </div class="row">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Kenyatta Hill</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Resume</a>
+                        <a class="dropdown-item" href="#">LinkED</a>
+                        <a class="dropdown-item" href="#">GitHub</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <span class="border border-success"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-4 bg-dark text-white">
+            </div class="container">
+        </div class="row">
     </div class="col-sm center">
     <h1>Portfolio</h1>
-
-<div class="container">
-    <div class="row">
-        <!-- <div class="col-sm"> -->
-            <img src="./Assets/Images/02-CSS-Bootstrap_02-Homework_Assets_Images_640-contact.jpg" width="300" height="400">
-<div class="container">
-    <!-- <div class="row"> -->
-        <div class="col-sm">
-            <img src="./Assets/Images/02-CSS-Bootstrap_02-Homework_Assets_Images_640-index.jpg" width="300" height="400">
-<div class="container">
-    <!-- <div class="row"> -->
-        <div class="col-sm">
-            <img src="Assets/Images/02-CSS-Bootstrap_02-Homework_Assets_Images_640-portfolio.jpg" width="300" height="400">
+    <div class="card" style="width: 18rem;">
+        <img src="/Assets/images/Screen Shot 2020-07-01 at 5.24.42 PM.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
     </div>
-
-</div>
-
-
-</div>
-
+    <span class="border border-success"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-4 bg-dark text-white">
+            </div class="container">
+        </div class="row">
+    </div class="col-sm center">
+    <h1>Portfolio</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="/Assets/images/Screen Shot 2020-07-01 at 5.34.59 PM.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+    </div>
+    <footer class="fixed-bottom bg-dark p-2">
+        <p class="text-white text-center">Copy Right</p>
+    </footer>
 </body>
+
+</html>
