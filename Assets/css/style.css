@@ -1,3 +1,23 @@
 .navbar-brand {
 color: aqua;
 }
+
+#firstName {
+    font-size: xx-large;
+}
+
+article {
+    background-color: rgb(145, 157, 172);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: x-large;
+}
+.contactForm {
+margin: 5%;
+}
+.navbar {margin-bottom: 7px;
+    
+}

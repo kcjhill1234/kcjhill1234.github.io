@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/css/style.css">
 
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Kenyatta Hill</a>
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand text-white" href="#" id="firstName">Kenyatta Hill</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,12 +24,12 @@
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown links
@@ -38,47 +39,65 @@
                         <a class="dropdown-item" href="#">LinkED</a>
                         <a class="dropdown-item" href="#">GitHub</a>
                     </div>
-                </li>
+                </li> -->
             </ul>
         </div>
     </nav>
-    <span class="border border-success"></span>
-    <div class="container">
+    <div class="container mi-5 mt-5">
         <div class="row">
-            <div class="col-sm-12 col-md-8 col-lg-4 bg-dark text-white">
-            </div class="container">
-        </div class="row">
-    </div class="col-sm center">
-    <h1>Portfolio</h1>
-    <div class="card" style="width: 18rem;">
-        <img src="/Assets/images/Screen Shot 2020-07-01 at 5.24.42 PM.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                card's content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <div class="flex-column contactForm bg-info">
+                <div class="card m-4" style="width: 25rem;">
+                    <h1>Repositories</h1>
+                    <img src="./Assets/Images/password Gen screen shot.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator Screen Shot</h5>
+                        <p class="card-text">https://kcjhill1234.github.io/PasswordGenerator/</p>
+                        <a href="https://kcjhill1234.github.io/PasswordGenerator" class="btn btn-primary">Password
+                            Generator</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-column contactForm bg-info">
+                <div class="card m-4" style="width: 25rem;">
+                    <h1>Repositories</h1>
+                    <img src="./Assets/Images/code game screen shot.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Code Quiz Screen Shot</h5>
+                        <p class="card-text"></p>https://kcjhill1234.github.io/CodeQuiz/</p>
+                        <a href="https://kcjhill1234.github.io/CodeQuiz" class="btn btn-primary">Code Quiz</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-column contactForm bg-info">
+                <div class="card m-4" style="width: 25rem;">
+                    <h1>Repository Project</h1>
+                    <img src="./Assets/Images/music discovery screen shot.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Music Discovery Screen Shot</h5>
+                        <p class="card-text"></p>https://kcjhill1234.github.io/musicdiscovery/</p>
+                        <a href="https://kcjhill1234.github.io/musicdiscovery" class="btn btn-primary">Music
+                            Discovery</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-column contactForm bg-info">
+                <div class="card m-4" style="width: 25rem;">
+                    <h1>Resume</h1>
+                    <img src="./Assets/Images/resume screen shot.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Resume</h5>
+                        <p class="card-text"></p>
+                        <a href="./Assets/Resume/Kenny Hill Resume 2019.docx" class="btn btn-primary">Download Document</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <span class="border border-success"></span>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-8 col-lg-4 bg-dark text-white">
-            </div class="container">
-        </div class="row">
-    </div class="col-sm center">
-    <h1>Portfolio</h1>
-    <div class="card" style="width: 18rem;">
-        <img src="/Assets/images/Screen Shot 2020-07-01 at 5.34.59 PM.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                card's content.</p>
-            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-    </div>
-    <footer class="fixed-bottom bg-dark p-2">
-        <p class="text-white text-center">Copy Right</p>
-    </footer>
+    <!-- <div>
+        <footer class="fixed-bottom bg-dark p-2">
+            <p class="text-white text-center">Copy Right</p>
+        </footer>
+    </div> -->
 </body>
 
 </html>
