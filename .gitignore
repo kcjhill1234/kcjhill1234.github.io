@@ -1,3 +1,7 @@
 node_modules
 .DS_STORE
+<<<<<<< HEAD
 build
+=======
+build
+>>>>>>> ef35be391a98cacabb0e58910e8c4b605998e082
